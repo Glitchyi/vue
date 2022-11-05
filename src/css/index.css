@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "googleSans";
+  src: url(../assets/fonts/GoogleSans.ttf);
+}
+html {
+  cursor: url("../assets/cursor/cursor.png"), auto;
+  min-width: 650px;
+  min-height: 500px;
+  background: #94ccc9;
+  display: block;
+  overflow: hidden;
+}
+.cur {
+  cursor: url("../assets/cursor/cursor-hover.png"), auto;
+}
+ul {
+  margin: 20;
+}
+.textcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "googleSans";
+  font-size: 5vmax;
+  position: absolute;
+  left: 45%;
+  top: 20%;
+}
+#name {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  font-size: 10vh;
+  line-height: 10vh;
+  color: #000000;
+  transition: text-shadow 0.5s;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+}
+#name:hover {
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45);
+}
+#tagline {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vh;
+  line-height: 6vh;
+  color: #1d4158;
+  transition: text-shadow 0.5s;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+}
+#tagline:hover {
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45);
+}
+.profilecontainer {
+  position: absolute;
+  float: left;
+  margin: none;
+  top: 20%;
+  left: 15vh;
+}
+#profile {
+  width: 50vh;
+  margin: none;
+  border-radius: 100%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s;
+}
+#profile:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45);
+}
+.socialcontainer {
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 10vh;
+  right: 6vw;
+  align-items: center;
+  height: 100vh;
+}
+.navcontainer {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  bottom: 8vh;
+  left: 8vw;
+}
+.blank {
+  height: 3vh;
+  width: 3vw;
+}
+.modeswitch {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 100%;
+  background: #102133;
+  transition: box-shadow 0.3s;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+}
+.modeswitch:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45);
+}
+.moonlogo{
+  width: 5vh;
+  position: absolute;
+  top: 2.5vh;
+  left: 2.5vh;
+}
+.nav {
+  align-items: center; 
+  justify-content: space-evenly;
+  width: 75vw;
+  height: 10vh;
+  background: #102133;
+  border-radius: 100px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s;
+}
+.nav:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45);
+}
+.navtext {
+  text-decoration: none;
+  font-family: "googleSans";
+  font-size: 5vh;
+  color: rgb(255, 255, 255);
+  cursor: url("../assets/cursor/cursor-hover.png"), auto;
+}
+.navtext:link, :visited{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}

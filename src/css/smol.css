@@ -1,0 +1,75 @@
+@media screen and (max-width: 1024px) {
+  html {
+    background: #04001d;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+  .textcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: "googleSans";
+    /* position: absolute; */
+    left: 3%;
+    top: 55%;
+  }
+  #name {
+    color: #ffffff;
+    font-size: 5vh;
+    line-height: 5vh;
+  }
+  #tagline {
+    color: #7fa2b9;
+    font-size: 2vh;
+    line-height: 3vh;
+  }
+  .profilecontainer {
+    position: relative;
+    margin: none;
+    top: 15vh;
+    left: 7%;
+  }
+  #profile {
+    width: 30vh;
+    margin: none;
+    border-radius: 100%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s;
+  }
+  #profile:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45);
+  }
+  .navcontainer {
+    display: flex;
+    position: absolute;
+    bottom: 5vh;
+    left: 4 vw;
+  }
+  .modeswitch {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 100%;
+    background: #102133;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  .modeswitch:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45);
+  }
+  .moonlogo {
+    position: relative;
+    width: 2.5vh;
+    top: 2.4vh;
+    left: 2.4vh;
+  }
+  .nav {
+    width: 60vw;
+    height: 7vh;
+    background: #102133;
+    border-radius: 100px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s;
+  }
+}
