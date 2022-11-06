@@ -1,0 +1,7 @@
+services:
+  vue:
+    image: node:current-alpine
+    working_dir: /app
+    command: sh -c "yarn install && yarn serve"
+    ports:
+      - "8080:80"
