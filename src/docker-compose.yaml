@@ -2,6 +2,6 @@ services:
   vue:
     image: node:current-alpine
     working_dir: /app
-    command: sh -c "yarn install && yarn serve"
+    command: sh -c "npm install && npm run serve"
     ports:
       - "8080:80"
