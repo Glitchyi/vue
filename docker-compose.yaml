@@ -6,4 +6,5 @@ services:
       - .:/app
     command: sh -c "npm install && npm run serve"
     ports:
-      - "8080:80"
+      - "80:80"
+      - "443:443"
