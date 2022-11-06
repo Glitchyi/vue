@@ -8,3 +8,7 @@ services:
     ports:
       - "80:80"
       - "443:443"
+networks:
+  driver: bridge
+  default:
+    name: vue
