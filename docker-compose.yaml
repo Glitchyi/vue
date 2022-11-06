@@ -8,9 +8,7 @@ services:
     ports:
       - "80:80"
       - "443:443"
-    networks:
-      - vue
-networks:
-   vue:
-      name: vue
-      driver: macvlan
+# networks:
+#    vue:
+#       name: vue
+#       driver: macvlan
