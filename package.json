@@ -24,9 +24,12 @@
   ],
   "vue": {
     "devServer": {
-      "public": "glitchy.systems",
+      "compress": true,
       "port": 443,
       "https": {
+        "allowedHosts": [
+          "glitchy.systems"
+        ],
         "key": "./certs/keys.pem",
         "cert": "./certs/cert.pem"
       }
