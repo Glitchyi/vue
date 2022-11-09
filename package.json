@@ -26,8 +26,8 @@
     "devServer": {
       "port": 443,
       "https": {
-        "key": "./certs/localhost.key",
-        "cert": "./certs/localhost.crt"
+        "key": "./certs/keys.pem",
+        "cert": "./certs/cert.pem"
       }
     }
   }
