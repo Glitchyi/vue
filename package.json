@@ -28,7 +28,7 @@
       "port": 443,
       "https": {
         "allowedHosts": [
-          "glitchy.systems"
+          "all"
         ],
         "key": "./certs/keys.pem",
         "cert": "./certs/cert.pem"
