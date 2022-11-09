@@ -5,8 +5,8 @@
 html {
   cursor: url("../assets/cursor/cursor.png"), auto;
   min-width: 650px;
-  min-height: 500px;
-  background: #94ccc9;
+  min-height: 100vh;
+  background: #8FE3CF;
   display: block;
   overflow: hidden;
 }

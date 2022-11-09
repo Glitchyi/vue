@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --port 80",
-    "build": "vue-cli-service build --port 443"
+    "serve": "vue-cli-service serve --port 443",
+    "build": "vue-cli-service build "
   },
   "dependencies": {
     "vue": "^3.2.13",
@@ -21,5 +21,14 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "vue": {
+    "devServer": {
+      "port": 443,
+      "https": {
+        "key": "./certs/localhost.key",
+        "cert": "./certs/localhost.crt"
+      }
+    }
+  }
 }
