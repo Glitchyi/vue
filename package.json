@@ -25,7 +25,7 @@
   "vue": {
     "devServer": {
       "port": 443,
-      "https": {
+      "server": {
         "key": "./certs/keys.pem",
         "cert": "./certs/cert.pem"
       }
