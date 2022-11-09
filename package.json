@@ -26,10 +26,8 @@
     "devServer": {
       "compress": true,
       "port": 443,
+      "disableHostCheck": true,
       "https": {
-        "allowedHosts": [
-          "all"
-        ],
         "key": "./certs/keys.pem",
         "cert": "./certs/cert.pem"
       }
