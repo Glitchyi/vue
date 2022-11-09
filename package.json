@@ -21,16 +21,6 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ],
-  "vue": {
-    "devServer": {
-      "compress": true,
-      "port": 443,
-      "disableHostCheck": true,
-      "https": {
-        "key": "./certs/keys.pem",
-        "cert": "./certs/cert.pem"
-      }
-    }
-  }
+  ]
+ 
 }
