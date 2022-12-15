@@ -1,7 +1,4 @@
 <template>
-  <div class="socialcontainer cur">
-    todo: social icons
-  </div>
   <div class="profilecontainer">
     <img id="profile" class="profile cur" src="../assets/profile.gif" alt="Profile Pic">
   </div>

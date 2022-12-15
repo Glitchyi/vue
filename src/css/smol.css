@@ -4,6 +4,8 @@
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
+
+    overflow: hidden;
   }
   .textcontainer {
     display: flex;
@@ -12,17 +14,27 @@
     font-family: "googleSans";
     /* position: absolute; */
     left: 3%;
+    top: 70%;
+  }
+  .textcontainer2 {
+    font-family: "googleSans";
+    /* position: absolute; */
     top: 55%;
   }
   #name {
     color: #ffffff;
-    font-size: 5vh;
+    font-size: 10vh;
+    line-height: 10vh;
+  }
+  #about {
+    color: #ffffff;
+    font-size: 2.5vh;
     line-height: 5vh;
   }
   #tagline {
     color: #7fa2b9;
-    font-size: 2vh;
-    line-height: 3vh;
+    font-size: 4vh;
+    line-height: 5vh;
   }
   .profilecontainer {
     position: relative;
@@ -31,7 +43,7 @@
     left: 7%;
   }
   #profile {
-    width: 30vh;
+    width: 40vh;
     margin: none;
     border-radius: 100%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
@@ -43,7 +55,7 @@
   .navcontainer {
     display: flex;
     position: absolute;
-    bottom: 5vh;
+    top: 3vh;
     left: 4 vw;
   }
   .modeswitch {
@@ -71,5 +83,12 @@
     padding: 0;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.3s;
+  }
+  .navtext {
+    text-decoration: none;
+    font-family: "googleSans";
+    font-size: 2.5vh;
+    color: rgb(255, 255, 255);
+    cursor: url("../assets/cursor/cursor-hover.png"), auto;
   }
 }

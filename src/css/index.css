@@ -26,6 +26,14 @@ ul {
   left: 45%;
   top: 20%;
 }
+.textcontainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "googleSans";
+  margin: 10vmax;
+  font-size: 2vmax;
+}
 #name {
   margin-top: 5vh;
   margin-bottom: 5vh;
