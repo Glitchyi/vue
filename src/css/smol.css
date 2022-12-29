@@ -23,7 +23,7 @@
   }
   #name {
     color: #ffffff;
-    font-size: 10vh;
+    font-size: 8vh;
     line-height: 10vh;
   }
   #about {
@@ -75,7 +75,7 @@
     left: 2.4vh;
   }
   .nav {
-    width: 60vw;
+    width: 65vw;
     height: 7vh;
     background: #102133;
     border-radius: 100px;

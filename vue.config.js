@@ -1,17 +1,12 @@
-// const { defineConfig } = require('@vue/cli-service')
-// const fs = require('fs')
-// module.exports = defineConfig({
-//   transpileDependencies: true,
-//   devServer: {
-//     disbaleHostCheck: true,
-//     compress: true,
-//     port: 443,
-//     server : {
-//         type: 'https',
-//         options: {
-//             cert: fs.readFileSync('./certs/cert.pem'),
-//             key: fs.readFileSync('./certs/key.pem'),
-//           },
-//     },
-//   },
-// })
+module.exports = {
+  chainWebpack: (config) => {
+    config.plugin("html").tap((args) => {
+      args[0].title = "MyApp title";
+      args[0].meta = {
+        viewport: "width=device-width,initial-scale=1,user-scalable=no",
+      };
+
+      return args;
+    });
+  },
+};
