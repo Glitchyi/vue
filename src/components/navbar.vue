@@ -1,13 +1,14 @@
 <template>
-    <div class="navcontainer">
-        <div id="mode" class="modeswitch cur"><img class="moonlogo" src="../assets/DarkTheme.png"></div>
-        <div class="blank cur"></div>
+    <div class=" bottom-10 left-1/4">
         <div class="nav cur navtext" >
-            <router-link to="/" class="navtext">Home</router-link>|
-            <router-link to="/about" class="navtext">About</router-link>
+            <router-link to="/" class="navtext w-full">Home</router-link>|
+            <router-link to="/about" class="navtext w-full">About</router-link>
         </div>
     </div>
 </template>
+
+<style src ="../css/nav.css"/>
+
 <script lang="ts">
 export default {};
 </script>

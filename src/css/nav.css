@@ -1,0 +1,33 @@
+.navcontainer {
+    position: absolute;
+    bottom: 8vh;
+    left: 25vh;
+  }
+.nav {
+    align-items: center; 
+    justify-content: space-evenly;
+    width: 75vw;
+    height: 10vh;
+    background: #102133;
+    border-radius: 100px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s;
+  }
+  .nav:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45);
+  }
+  .navtext {
+    text-decoration: none;
+    font-family: "googleSans";
+    font-size: 5vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    cursor: url("../assets/cursor/cursor-hover.png"), auto;
+  }
+  .navtext:link, :visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }

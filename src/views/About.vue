@@ -1,5 +1,5 @@
 <template>
-    <div class="textcontainer2" id="about">
+    <div class="textcontainer2 flex flex-col align" id="about">
         <p>
             An average techie who really enjoy learning new skills and is overcurious in almost every topic he stumbles
             upon.
@@ -15,8 +15,8 @@
             - WSL Fanboy, Used Arch the proper way :), a Gnome & Debian (Ubuntu) enthusiast
             - Aspiring game dev, a self-taught music composer, amateur photographer
         </p>
+        <navbar/>
     </div>
-    <navbar />
 </template>
   
 

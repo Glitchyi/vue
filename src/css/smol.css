@@ -7,15 +7,6 @@
 
     overflow: hidden;
   }
-  .textcontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    font-family: "googleSans";
-    /* position: absolute; */
-    left: 3%;
-    top: 70%;
-  }
   .textcontainer2 {
     font-family: "googleSans";
     /* position: absolute; */
@@ -23,8 +14,8 @@
   }
   #name {
     color: #ffffff;
-    font-size: 8vh;
-    line-height: 10vh;
+    font-size: 4vh;
+    line-height: 4vh;
   }
   #about {
     color: #ffffff;
@@ -33,17 +24,11 @@
   }
   #tagline {
     color: #7fa2b9;
-    font-size: 4vh;
-    line-height: 5vh;
-  }
-  .profilecontainer {
-    position: relative;
-    margin: none;
-    top: 15vh;
-    left: 7%;
+    font-size: 2vh;
+    line-height: 2.5vh;
   }
   #profile {
-    width: 40vh;
+    width: 20vh;
     margin: none;
     border-radius: 100%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
